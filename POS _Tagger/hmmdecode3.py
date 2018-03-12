@@ -115,7 +115,7 @@ def write_to_file(tagged_data):
     fh.close()
 
 def compute_accuracy():
-    f_original = open("en_dev_tagged.txt", "r", encoding='UTF-8')  # consider encoding UTF-8
+    f_original = open("_name_of_test_file_", "r", encoding='UTF-8')  # consider encoding UTF-8
     t_original = f_original.read().splitlines()
 
     f_tagged = open("hmmoutput.txt", "r", encoding='UTF-8')
