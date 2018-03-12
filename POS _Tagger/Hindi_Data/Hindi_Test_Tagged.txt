@@ -1,0 +1,9 @@
+इसके/PRP अतिरिक्त/PSP गुग्गुल/NNPC कुंड/NNP ,/SYM भीम/NNPC गुफा/NNP तथा/CC भीमशिला/NNP भी/RP दर्शनीय/JJ स्थल/NN हैं/VM ।/SYM
+आधा/QF किमी/NN की/PSP दूरी/NN पर/PSP भैरवनाथ/NNP मंदिर/NN है/VM ,/SYM जहाँ/PRP केवल/RP केदारनाथ/NNP के/PSP पट/NN खुलने/VM और/CC बंद/JJ होने/VM के/PSP दिन/NN ही/RP पूजन/NN किया/VM जाता/VAUX है/VAUX ।/SYM
+*
+*
+*
+The actual data contained 1684 sentences
+*
+*
+*

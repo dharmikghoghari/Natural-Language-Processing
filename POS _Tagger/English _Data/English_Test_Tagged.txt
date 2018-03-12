@@ -1,0 +1,9 @@
+What/WP if/IN Google/NNP Morphed/VBD Into/IN GoogleOS/NNP ?/.
+What/WP if/IN Google/NNP expanded/VBD on/IN its/PRP$ search/NN -/HYPH engine/NN (/-LRB- and/CC now/RB e-mail/NN )/-RRB- wares/NNS into/IN a/DT full/RB -/HYPH fledged/JJ operating/NN system/NN ?/.
+*
+*
+*
+The actual data contained 2077 sentences
+*
+*
+*

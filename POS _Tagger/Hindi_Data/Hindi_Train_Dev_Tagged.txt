@@ -1,0 +1,9 @@
+यह/DEM एशिया/NNP की/PSP सबसे/INTF बड़ी/JJ मस्जिदों/NN में/PSP से/PSP एक/QC है/VM ।/SYM
+इसे/PRP नवाब/NNC शाहजेहन/NNP ने/PSP बनवाया/VM था/VAUX ।/SYM
+*
+*
+*
+The actual data contained 14963 sentences
+*
+*
+*

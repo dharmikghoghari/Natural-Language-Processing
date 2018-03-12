@@ -1,0 +1,9 @@
+然而/RB ,/, 這樣/PRD 的/DEC 處理/NN 也/RB 衍生/VV 了/AS 一些/JJ 問題/NN ./.
+自從/IN 2004/CD 年/NNB 提出/VV 了/AS 興建/VV 人文/NNP 大樓/NN 的/DEC 構想/NN ,/, 企業/NN 界/SFN 陸續/RB 有/VV 人/NN 提供/VV 捐款/NN ./.
+*
+*
+*
+The actual data contained 500 sentences
+*
+*
+*

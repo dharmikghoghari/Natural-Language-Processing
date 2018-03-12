@@ -1,0 +1,9 @@
+Al/NNP -/HYPH Zaman/NNP :/: American/JJ forces/NNS killed/VBD Shaikh/NNP Abdullah/NNP al/NNP -/HYPH Ani/NNP ,/, the/DT preacher/NN at/IN the/DT mosque/NN in/IN the/DT town/NN of/IN Qaim/NNP ,/, near/IN the/DT Syrian/JJ border/NN ./.
+[/-LRB- This/DT killing/NN of/IN a/DT respected/JJ cleric/NN will/MD be/VB causing/VBG us/PRP trouble/NN for/IN years/NNS to/TO come/VB ./. ]/-RRB-
+*
+*
+*
+The actual data contained 14545 sentences
+*
+*
+*
