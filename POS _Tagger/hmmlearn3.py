@@ -8,7 +8,7 @@ def read_file():
     word_given_tag = dict()
     tag_given_prevtag = dict()
 
-    f = open("en_train_tagged.txt", "r", encoding='UTF-8')       #consider encoding UTF-8
+    f = open("_name_of_training_file_.txt", "r", encoding='UTF-8')       #consider encoding UTF-8
     t = f.read()
     data = t.splitlines()
     total_sentences = len(data)
