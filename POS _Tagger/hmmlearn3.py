@@ -9,7 +9,6 @@ def read_file():
     tag_given_prevtag = dict()
 
     f = open("en_train_tagged.txt", "r", encoding='UTF-8')       #consider encoding UTF-8
-    #f = open(sys.argv[-1], "r", encoding='UTF-8')  # consider encoding UTF-8
     t = f.read()
     data = t.splitlines()
     total_sentences = len(data)
@@ -99,7 +98,7 @@ def read_file():
             word_given_tag[word] = dict()
             word_given_tag[word][tag] = 1
 
-        # Making a tag dictionary to add last tag           # make changes here (consider the end_of_line in the tags list)
+        # Making a tag dictionary to add last tag           
         if tag in tags:
             tags[tag] += 1
         else:
@@ -111,14 +110,12 @@ def write_to_file(tags, word_given_tag, tag_given_prevtag, total_sentences):
     fh = open("hmmmodel.txt", "w+", encoding="UTF-8")
     for prev_tag in tag_given_prevtag:
         for tag in tag_given_prevtag[prev_tag]:
-            tag_given_prevtag[prev_tag][tag] = math.log(tag_given_prevtag[prev_tag][tag]) + (len(tag_given_prevtag)*2.0) - math.log(tags[prev_tag])
-            #tag_given_prevtag[prev_tag][tag] = 1.0 * (tag_given_prevtag[prev_tag][tag]) / (tags[prev_tag])
+            tag_given_prevtag[prev_tag][tag] = 1.0 * (tag_given_prevtag[prev_tag][tag]) / (tags[prev_tag])
     fh.write(json.dumps(tag_given_prevtag))
     fh.write("\n")
     for word in word_given_tag:
         for tag in word_given_tag[word]:
-            word_given_tag[word][tag] = math.log(word_given_tag[word][tag]) + (len(tag_given_prevtag)*2.0) - math.log(tags[tag])
-            #word_given_tag[word][tag] = 1.0 * (word_given_tag[word][tag]) / (tags[tag])
+            word_given_tag[word][tag] = 1.0 * (word_given_tag[word][tag]) / (tags[tag])
     fh.write(json.dumps(word_given_tag))
     fh.write("\n")
     fh.write(json.dumps(tags))
@@ -128,14 +125,12 @@ def smoothing(tags, word_given_tag, tag_given_prevtag):
     #size_tgt = len(tag_given_prevtag)
     n = 2.0
     for main_tag in tag_given_prevtag:
-        tags[main_tag] += (len(tag_given_prevtag) * 2*n) - 2*n
-        #print(main_tag, len(tag_given_prevtag[main_tag]), tag_given_prevtag[main_tag])
+        tags[main_tag] += (len(tag_given_prevtag) * n)
         for tag in tag_given_prevtag:
             if tag in tag_given_prevtag[main_tag]:
                 tag_given_prevtag[main_tag][tag] += n
             else:
                 tag_given_prevtag[main_tag][tag] = n
-        #print(main_tag, len(tag_given_prevtag[main_tag]), tag_given_prevtag[main_tag])
 
     for tag in tag_given_prevtag:
         if "end_of_line" not in tag_given_prevtag[tag]:
@@ -148,11 +143,6 @@ def main():
     tags, word_given_tag, tag_given_prevtag, total_semtences = read_file()
     tags, word_given_tag, tag_given_prevtag = smoothing(tags, word_given_tag, tag_given_prevtag)
     write_to_file(tags, word_given_tag, tag_given_prevtag, total_semtences)
-
-    #print((tags))
-
-    #for tag in tag_given_prevtag:
-    #    print(tag, len(tag_given_prevtag[tag]), tag_given_prevtag[tag])
 
 t = time.time()
 main()
