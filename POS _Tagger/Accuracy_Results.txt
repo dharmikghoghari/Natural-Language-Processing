@@ -1,0 +1,3 @@
+Accuracy for English Data = 88.87%
+Accuracy for Hindi Data = 92.41%
+Accuracy for Chinese Data = 86.95%
