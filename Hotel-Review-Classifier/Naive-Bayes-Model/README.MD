@@ -1,4 +1,4 @@
-The model was develoepd on the principles of Naive Bayes model. 
+The model was develoepd on the principles of Naive Bayes algorithm. 
 The model's accuracy was improved by almost 2% using a list of stop words. 
 The model was trained and tested on the Deceptive Opinion Spam Corpus v1.4(licensed under the Creative Commons).
 
