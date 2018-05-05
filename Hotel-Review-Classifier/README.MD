@@ -1,3 +1,3 @@
-Hotel Review Classifier
+<b>Hotel Review Classifier</b>
 
 Developed models on the principles of Naïve Bayes and Perceptron algorithms to classify hotel reviews as fake/true and positive/negative which achieved accuracies of around 90% when trained and tested on Deceptive Opinion Spam Corpus v1.4(actual reviews from Yelp, Hotels.com, TripAdvisor, etc.).  
