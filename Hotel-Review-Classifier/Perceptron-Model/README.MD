@@ -1,3 +1,5 @@
+<h1> Perceptron Model </h1><br>
+
 The model was develoepd on the principles of <b>Perceptorn Algorithm</b>.<br>
 Two flavors of the algorithm were implemented, Vanilla Perceptron and Averaged Perceptron.<br>
 The model's accuracy was improved by using a list of stop words.<br> 
