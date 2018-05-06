@@ -23,4 +23,8 @@ Implementation details,<br>
 2. The learned weights and bias of the perceptron models are stored seperately in <b>vanillamodel.txt</b> for vanilla model and in <b>averagedmodel.txt</b> for averaged model. <br>
 3. <b>percepclassify3.py :</b> includes the code for classifying the test data(<b>test-text.txt</b>) and computing the accuracy and F1 Score for it using the parameters passed by the perceplearn3.py <br>
 4. The classification results are stored in <b>percepoutput.txt</b>.<br>
-5. The classification results of our model is compared with the actual results(<b>test-key.txt</b>) to compute the accuracy and F1 Score. 
+5. The classification results of our model is compared with the actual results(<b>test-key.txt</b>) to compute the accuracy and F1 Score. <br>
+
+The algorithm details can be found here,<br>
+Reference: Hal Daumé III, A Course in Machine Learning (v. 0.99 draft), Chapter 4: The Perceptron<br>
+Link: <b>http://www.ciml.info/dl/v0_99/ciml-v0_99-ch04.pdf</b>
