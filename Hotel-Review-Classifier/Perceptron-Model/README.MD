@@ -19,5 +19,6 @@ Implementation details,<br>
 5. The classification results of our model is compared with the actual results(<b>test-key.txt</b>) to compute the accuracy and F1 Score. <br>
 
 The algorithm details can be found here,<br>
+
 Reference: Hal Daumé III, A Course in Machine Learning (v. 0.99 draft), Chapter 4: The Perceptron<br>
 Link: <b>http://www.ciml.info/dl/v0_99/ciml-v0_99-ch04.pdf</b>
