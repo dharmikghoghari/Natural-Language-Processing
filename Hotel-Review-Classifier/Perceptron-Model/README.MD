@@ -1,4 +1,4 @@
-The model was develoepd on the principles of Perceptorn Algorithm.<br>
+The model was develoepd on the principles of <b>Perceptorn Algorithm</b>.<br>
 Two flavors of the algorithm were implemented, Vanilla Perceptron and Averaged Perceptron.<br>
 The model's accuracy was improved by using a list of stop words.<br> 
 The model was trained and tested on the Deceptive Opinion Spam Corpus v1.4(licensed under the Creative Commons).<br>
