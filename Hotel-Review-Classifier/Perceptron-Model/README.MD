@@ -7,10 +7,8 @@ The model was trained and tested on the Deceptive Opinion Spam Corpus v1.4(licen
 
 The below results were obtained when model was trained on 1280 reviews and the model was used to classify 320 reviews.<br>
 
-Vanilla Perceptron Model &nbsp;&nbsp;&nbsp;&nbsp; Accuracy: 87.812% &nbsp;&nbsp;&nbsp;&nbsp; F1 Score: 87.812% <br>
-
-Averaged Perceptron Model &nbsp;&nbsp;&nbsp;&nbsp; Accuracy: 88.281% &nbsp;&nbsp;&nbsp;&nbsp; F1 Score: 88.281%<br>
-
+Vanilla Perceptron Model: &nbsp;&nbsp;&nbsp;&nbsp; Accuracy: 87.812% &nbsp;&nbsp;&nbsp;&nbsp; F1 Score: 87.812% <br>
+Averaged Perceptron Model: &nbsp;&nbsp;&nbsp;&nbsp; Accuracy: 88.281% &nbsp;&nbsp;&nbsp;&nbsp; F1 Score: 88.281%<br>
 Run time: 2.2 seconds (includes training on 1280 reviews and classifying 320 reviews for both the vanilla and averaged model) 
 
 Implementation details,<br>
