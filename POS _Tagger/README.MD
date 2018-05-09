@@ -1,10 +1,10 @@
 <h1> Parts of Speech Tagger </h1>
 
-This is a generalized Parts of Speech (POS) tagger implemented in Python.<br>
-The model was trained on the principles of Hidden Markov Model (HMM). <br>
-The decoding of data was done using Viterbi Algorithm.<br>
-Smoothing was carried out to eliminate the zeros from the transition probabilities(P(word,tag)).<br>
-The model trained and tested on data sets of 3 languages (English, Hindi, Chinese). <br>
+This is a generalized <b>Parts of Speech(POS) Tagger</b> implemented in Python.<br>
+The model was trained on the principles of <b>Hidden Markov Model</b>(HMM). <br>
+The decoding of data was done using <b>Viterbi Algorithm</b>.<br>
+<b>Smoothing</b> was carried out to eliminate the zeros from the transition probabilities(P(word,tag)).<br>
+The model trained and tested on data sets of 3 languages (<b>English, Hindi, Chinese</b>). <br>
 
 The results were as follows:<br>
 
