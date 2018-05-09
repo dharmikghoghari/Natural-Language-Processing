@@ -6,7 +6,7 @@ The decoding of data was done using <b>Viterbi Algorithm</b>.<br>
 <b>Smoothing</b> was carried out to eliminate the zeros from the transition probabilities(P(word,tag)).<br>
 The model trained and tested on data sets of 3 languages (<b>English, Hindi, Chinese</b>). <br>
 
-The results were as follows:<br>
+The model achieves the following results when trained and tested on the sample of Creative Commons Corpus,<br>
 
 Accuracy for English Data = 88.87%<br>
 Accuracy for Hindi Data = 92.41%<br>
